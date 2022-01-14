@@ -445,7 +445,48 @@ body {
 
   margin-bottom: 9px;
 }
-
+.box-footer {
+  width: 206px;
+  height: 80px;
+  margin-left: 70px;
+  /* margin-bottom: 100px; */
+}
+.title-footer {
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-style: normal;
+}
+.list-info {
+  display: flex;
+}
+.social-networks-footer {
+  display: flex;
+  list-style: none;
+}
+.box-social-footer {
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.box-social-footer:hover {
+  background-color: #2196f3;
+}
+.box-social-footer:not(:last-child) {
+  margin-right: 10px;
+}
+.icon-footer {
+  width: 20px;
+  height: 20px;
+  fill: #ffffff;
+}
 /* ---------------------button portfolio---------------------" */
 .button {
   font-weight: 500;
