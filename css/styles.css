@@ -396,6 +396,10 @@ body {
   fill: #afb1b8;
 }
 /* ---------------------------Подвал----------------------- */
+.footer .container {
+  display: flex;
+  align-items: baseline;
+}
 .footer {
   background-color: var(--footer-hero-background-color);
   padding-top: 60px;
