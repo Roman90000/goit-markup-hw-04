@@ -138,6 +138,7 @@ body {
   margin-right: 50px;
   display: flex;
   align-items: center;
+  flex-direction: row-reverse;
 }
 .title:last-child {
   margin-right: 0px;
@@ -164,9 +165,7 @@ body {
   color: var(--color-link);
 }
 .link-icon:hover,
-.link-icon:focus,
-.link:hover,
-.link:focus {
+.link-icon:focus {
   color: var(--color-link);
 }
 /* ------------------------Герой--------------------------------- */
@@ -353,6 +352,9 @@ body {
   fill: #afb1b8;
 }
 /* ----------------------Постоянные клиенты-------------------- */
+.container-company {
+  background-color: var(--primary-body-color);
+}
 .company {
   padding-bottom: 94px;
   padding-top: 94px;
